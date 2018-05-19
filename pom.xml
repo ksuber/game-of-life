@@ -42,6 +42,7 @@
                 <configuration>
                     <skip>false</skip>
                     <forkCount>0</forkCount>
+                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
                 </configuration>
                 <executions>
                     <execution>
