@@ -38,11 +38,9 @@
             </plugin>
             <plugin>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.11</version>
+                <version>2.20</version>
                 <configuration>
-                    <skip>false</skip>
-                    <forkCount>0</forkCount>
-                    <redirectTestOutputToFile>true</redirectTestOutputToFile>
+                    <skip>true</skip>
                 </configuration>
                 <executions>
                     <execution>
